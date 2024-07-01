@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "turtlesmod",
+	"version": "${version}",
+	"name": "Turtles Mod",
+	"description": "I don't know what I'm doing",
+	"authors": [
+		"turtel"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/turtlesmod/shuriken.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.aaronr.turtlesmod.TurtlesMod"
+		],
+		"client": [
+			"net.aaronr.turtlesmod.TurtlesModClient"
+		],
+		"fabric-datagen": [
+			"net.aaronr.turtlesmod.TurtlesModDataGenerator"
+		]
+	},
+	"mixins": [
+		"turtlesmod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
