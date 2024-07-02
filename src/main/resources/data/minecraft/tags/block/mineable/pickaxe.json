@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "turtlesmod:ruby_block",
+    "turtlesmod:raw_ruby_block"
+  ]
+}

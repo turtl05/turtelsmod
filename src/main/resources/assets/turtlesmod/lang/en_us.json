@@ -2,11 +2,16 @@
   "item.turtlesmod.copper_sword": "Copper Sword",
   "item.turtlesmod.shuriken": "Shuriken",
   "item.turtlesmod.tomato": "Tomato",
+  "item.turtlesmod.ruby": "Ruby",
+  "item.turtlesmod.raw_ruby": "Raw Ruby",
 
   "item.turtlesmod.metal_detector": "Metal Detector",
 
   "block.turtlesmod.cheese_block": "Block of Cheese",
   "block.turtlesmod.sound_block": "Sound Block",
+  "block.turtlesmod.greentnt_block": "Green TNT",
+  "block.turtlesmod.ruby_block": "Ruby Block",
+  "block.turtlesmod.raw_ruby_block": "Block of Raw Ruby",
 
   "itemgroup.coolshit": "Cool Shit"
 }

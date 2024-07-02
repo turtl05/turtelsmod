@@ -20,10 +20,11 @@ public class SoundBlock extends Block {
     @Override
     protected ActionResult onUse(BlockState state, World world, BlockPos pos,
                                  PlayerEntity player, BlockHitResult hit) {
+
         Random rand = new Random();
         int pitch = rand.nextInt(20);
 
-        world.playSound(player, pos, SoundEvents.BLOCK_NOTE_BLOCK_XYLOPHONE.value(), SoundCategory.BLOCKS, 1f, (pitch/20f));
+        world.playSound(player, pos, SoundEvents.BLOCK_NOTE_BLOCK_XYLOPHONE.value(), SoundCategory.BLOCKS, 1f, (pitch/10f));
         return ActionResult.SUCCESS;
     }
 }
