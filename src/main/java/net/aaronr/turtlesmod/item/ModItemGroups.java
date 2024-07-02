@@ -23,13 +23,17 @@ public class ModItemGroups {
 
                         entries.add(ModItems.RUBY);
                         entries.add(ModItems.RAW_RUBY);
+                        entries.add(ModBlocks.RUBY_BLOCK);
+                        entries.add(ModBlocks.RAW_RUBY_BLOCK);
+                        entries.add(ModBlocks.RUBY_ORE);
+                        entries.add(ModBlocks.DEEPSLATE_RUBY_ORE);
+                        entries.add(ModBlocks.NETHER_RUBY_ORE);
+                        entries.add(ModBlocks.END_STONE_RUBY_ORE);
                         entries.add(ModItems.COPPER_SWORD);
                         entries.add(ModItems.SHURIKEN);
                         entries.add(ModItems.METAL_DETECTOR);
                         entries.add(ModBlocks.CHEESE_BLOCK);
                         entries.add(ModBlocks.SOUND_BLOCK);
-                        entries.add(ModBlocks.RUBY_BLOCK);
-                        entries.add(ModBlocks.RAW_RUBY_BLOCK);
                         entries.add(ModItems.TOMATO);
                         entries.add(ModBlocks.GREENTNT_BLOCK);
                         entries.add(Items.MILK_BUCKET);

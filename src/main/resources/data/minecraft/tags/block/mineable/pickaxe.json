@@ -2,6 +2,10 @@
   "replace": false,
   "values": [
     "turtlesmod:ruby_block",
-    "turtlesmod:raw_ruby_block"
+    "turtlesmod:raw_ruby_block",
+    "turtlesmod:ruby_ore",
+    "turtlesmod:deepslate_ruby_ore",
+    "turtlesmod:nether_ruby_ore",
+    "turtlesmod:end_stone_ruby_ore"
   ]
 }
