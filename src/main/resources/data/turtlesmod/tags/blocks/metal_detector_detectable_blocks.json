@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "turtlesmod:ruby_ore",
+    "turtlesmod:gold_ores",
+    "turtlesmod:emerald_ores",
+    "turtlesmod:redstone_ores",
+    "turtlesmod:lapis_ores",
+    "turtlesmod:diamond_ores",
+    "turtlesmod:iron_ores",
+    "turtlesmod:copper_ores",
+    "turtlesmod:coal_ores"
+  ]
+}

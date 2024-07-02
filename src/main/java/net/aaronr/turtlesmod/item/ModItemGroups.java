@@ -19,7 +19,7 @@ public class ModItemGroups {
     public static final ItemGroup COOL_SHIT_GROUP = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(TurtlesMod.MOD_ID, "coolshit"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.coolshit"))
-                    .icon(() -> new ItemStack(ModItems.COPPER_SWORD)).entries((displayContext, entries) -> {
+                    .icon(() -> new ItemStack(ModItems.SHURIKEN)).entries((displayContext, entries) -> {
 
                         entries.add(ModItems.RUBY);
                         entries.add(ModItems.RAW_RUBY);
@@ -37,6 +37,7 @@ public class ModItemGroups {
                         entries.add(ModItems.TOMATO);
                         entries.add(ModBlocks.GREENTNT_BLOCK);
                         entries.add(Items.MILK_BUCKET);
+                        entries.add(ModItems.MONEY);
 
                     }).build());
 

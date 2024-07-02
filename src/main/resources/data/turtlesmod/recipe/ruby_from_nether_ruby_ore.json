@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 300,
+  "experience": 2,
+  "group": "ruby",
+  "ingredient": {
+    "item": "turtlesmod:nether_ruby_ore"
+  },
+  "result": {
+    "id": "turtlesmod:ruby"
+  }
+}

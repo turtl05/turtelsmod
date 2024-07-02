@@ -1,5 +1,7 @@
 package net.aaronr.turtlesmod.item.custom;
 
+import net.aaronr.turtlesmod.block.ModBlocks;
+import net.aaronr.turtlesmod.util.ModTags;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Blocks;
@@ -11,9 +13,12 @@ import net.minecraft.item.Equipment;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemUsageContext;
+import net.minecraft.item.tooltip.TooltipType;
+import net.minecraft.text.Text;
 import net.minecraft.util.ActionResult;
 import net.minecraft.util.math.BlockPos;
 
+import java.util.List;
 import java.util.Set;
 
 import static net.minecraft.text.Text.literal;
@@ -57,10 +62,17 @@ public class MetalDetectorItem extends Item {
     }
 
     private boolean isValuableBlock(BlockState state) {
-        return state.isOf(Blocks.IRON_ORE) || state.isOf(Blocks.DIAMOND_ORE);
+        return state.isIn(ModTags.Blocks.METAL_DETECTOR_DETECTABLE_BLOCKS);
     }
 
     public boolean isEnchantable(ItemStack stack) {
         return stack.getMaxCount() == 1 && stack.contains(DataComponentTypes.MAX_DAMAGE);
+    }
+
+    @Override
+    public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
+        tooltip.add(Text.translatable("tooltip.turtleslmod.metal_detector.tooltip"));
+
+        super.appendTooltip(stack, context, tooltip, type);
     }
 }

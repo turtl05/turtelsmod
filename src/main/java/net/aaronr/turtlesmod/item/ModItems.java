@@ -2,6 +2,7 @@ package net.aaronr.turtlesmod.item;
 
 import net.aaronr.turtlesmod.TurtlesMod;
 import net.aaronr.turtlesmod.item.custom.MetalDetectorItem;
+import net.fabricmc.fabric.api.item.v1.FabricItem;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.Item;
@@ -16,6 +17,7 @@ public class ModItems {
     public static final Item RUBY = registerItem("ruby", new Item(new Item.Settings()));
     public static final Item RAW_RUBY = registerItem("raw_ruby", new Item(new Item.Settings()));
     public static final Item TOMATO = registerItem("tomato", new Item(new Item.Settings().food(ModFoodComponents.TOMATO)));
+    public static final Item MONEY = registerItem("money", new Item(new Item.Settings()));
 
     public static final Item METAL_DETECTOR = registerItem("metal_detector",
             new MetalDetectorItem(new Item.Settings().maxDamage(128)));
@@ -25,6 +27,7 @@ public class ModItems {
         entries.add(SHURIKEN);
         entries.add(RUBY);
         entries.add(RAW_RUBY);
+        entries.add(MONEY);
     }
 
     public static Item registerItem(String name, Item item) {

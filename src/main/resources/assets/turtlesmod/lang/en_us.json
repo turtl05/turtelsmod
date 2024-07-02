@@ -8,6 +8,7 @@
   "item.turtlesmod.deepslate_ruby_ore": "Deepslate Ruby Ore",
   "item.turtlesmod.nether_ruby_ore": "Nether Ruby Ore",
   "item.turtlesmod.end_stone_ruby_ore": "End Stone Ruby Ore",
+  "item.turtlesmod.money": "Money",
 
   "item.turtlesmod.metal_detector": "Metal Detector",
 
@@ -16,6 +17,8 @@
   "block.turtlesmod.greentnt_block": "Green TNT",
   "block.turtlesmod.ruby_block": "Ruby Block",
   "block.turtlesmod.raw_ruby_block": "Block of Raw Ruby",
+
+  "tooltip.turtleslmod.metal_detector.tooltip": "Finds valuables underground",
 
   "itemgroup.coolshit": "Cool Shit"
 }
