@@ -38,6 +38,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.GREENTNT_BLOCK);
                         entries.add(Items.MILK_BUCKET);
                         entries.add(ModItems.MONEY);
+                        entries.add(ModItems.RUBY_PICKAXE);
+                        entries.add(ModItems.RUBY_SWORD);
 
                     }).build());
 

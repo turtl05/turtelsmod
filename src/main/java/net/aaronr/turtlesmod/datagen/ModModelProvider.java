@@ -8,7 +8,7 @@ import net.minecraft.data.client.BlockStateModelGenerator;
 import net.minecraft.data.client.ItemModelGenerator;
 import net.minecraft.data.client.Models;
 
-public class ModModelProvider extends FabricModelProvider {
+ public class ModModelProvider extends FabricModelProvider {
     public ModModelProvider(FabricDataOutput output) {
         super(output);
     }
@@ -33,5 +33,8 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.TOMATO, Models.GENERATED);
         itemModelGenerator.register(ModItems.METAL_DETECTOR, Models.GENERATED);
         itemModelGenerator.register(ModItems.SHURIKEN, Models.GENERATED);
+
+        itemModelGenerator.register(ModItems.RUBY_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.COPPER_SWORD, Models.HANDHELD);
     }
 }
